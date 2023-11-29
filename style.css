@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Kdam+Thmor+Pro&family=Roboto:ital,wght@1,100&family=Urbanist:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital@1&family=Kdam+Thmor+Pro&family=Open+Sans&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+:root{
+    --bs-dark-color:#1a1d20;
+    --bs-dark-primary:#1c1c1c;
+    --bs-main-color:#fff;
+    --bs-primary-color:#c6c6c6;
+    --secondary-color:#29a9fc;
+    --bs-supporting-color:#C850c0;
+}
+
+h1,h2,h3,h4,h5{
+   font-family: 'Open Sans', sans-serif;   
+   color:  var(--bs-dark-color);
+}
+h1{
+    /* margin: 0%; */
+    font-size:2rem;
+    /* font-weight: bold; */
+    max-width: 100%;
+    height: auto;
+    width: 25rem;
+    border-radius: 2rem;
+    font-family: 'Kanit', sans-serif;
+font-family: 'Kdam Thmor Pro', sans-serif;
+font-family: 'Open Sans', sans-serif;
+    
+}
+
+h2{
+   font-family: 'Kanit', sans-serif;
+font-family: 'Kdam Thmor Pro', sans-serif;
+font-family: 'Open Sans', sans-serif;
+}
+
+
+ p{
+    font-weight: 400;
+    font-size: 1rem;
+    color: var(--bs-dark-color);
+    letter-spacing: 0.07;
+    line-height: 1.55rem;
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+ }
+ a{
+    text-decoration: none;
+ }
+ li{
+    list-style: none;
+
+ }
+
+ .common-heading{
+   font-size: 2.8rem;
+   font-weight: 500;
+   letter-spacing: 0.01rem !important;
+ }
+ .common-title{
+   margin-bottom: 4.2rem;
+ }
+
+
+ /* herosection */
+ .hero-video--section{
+    max-width: 100%;
+    height: auto;
+    width: 30rem;
+    border-radius: 2rem;
+ }
+
+
+ .bg-main{
+    height: 100vh;
+    position: relative;
+ }
+
+ .hero-section .container{
+    display: grid;
+    place-content: center;
+    height: inherit;
+ }
+
+ .bg-color{
+    background-color: var(--bs-dark-color);
+ }
+ .nav-link{
+   color: var(--bs-main-color);
+   
+}
+.nav-link:hover{
+   color: var(--secondary-color);
+}
+
+.text-light-grey{
+   color: var(--bs-primary-color);
+}
+
+.button , a{
+font-size: 1.15rem;
+letter-spacing: 0.03rem;
+word-spacing: .1rem;
+}
+.custom-shape-divider-bottom-1700192170 {
+   position: absolute;
+   bottom: 0;
+   left: 0;
+   width: 100%;
+   overflow: hidden;
+   line-height: 0;
+   transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1700192170 svg {
+   position: relative;
+   display: block;
+   width: calc(111% + 1.3px);
+   height: 175px;
+   transform: rotateY(180deg);
+}
+
+.custom-shape-divider-bottom-1700192170 .shape-fill {
+   fill: #FFFFFF;
+}
+
+/* service section */
+.service-section{
+   padding: 6rem 0 3rem 0 !important;
+}
+.icon-span{
+   width: 2.5rem;
+   height: 2.5rem;
+   background-color: var(--secondary-color);
+   color: var(--bs-main-color);
+   /* margin-left: 120px; */
+}
+
+.card-box:hover{
+   box-shadow: rgba(149, 157, 165, 0.2) 0 8px 24px;
+}
+.more-info-section {
+   background-image: linear-gradient(rgba(22, 22, 22, 0.9), rgba(22, 22, 22, 0.9)), url('your-building-image-url.jpg');
+   background-size: cover;
+   background-position: center; 
+   background-repeat: no-repeat; 
+   background-attachment: fixed; 
+   padding: 6rem 0;
+   overflow: hidden;
+}
